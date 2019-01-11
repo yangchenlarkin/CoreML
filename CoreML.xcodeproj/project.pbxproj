@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		D026044321E7148A00249CC0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D026044221E7148A00249CC0 /* HomeTableViewController.m */; };
 		D064381D21E485DC0014C689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D064381C21E485DC0014C689 /* AppDelegate.m */; };
-		D064382021E485DC0014C689 /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D064381F21E485DC0014C689 /* ORViewController.m */; };
 		D064382521E485DC0014C689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D064382421E485DC0014C689 /* Assets.xcassets */; };
 		D064382821E485DC0014C689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064382621E485DC0014C689 /* LaunchScreen.storyboard */; };
 		D064382B21E485DC0014C689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D064382A21E485DC0014C689 /* main.m */; };
-		D064383521E4895A0014C689 /* ORCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = D064383421E4895A0014C689 /* ORCameraView.m */; };
+		D0CC3F7A21E88808004969B8 /* DRWritingView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC3F7121E88808004969B8 /* DRWritingView.m */; };
+		D0CC3F7B21E88808004969B8 /* DRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC3F7321E88808004969B8 /* DRViewController.m */; };
+		D0CC3F7C21E88808004969B8 /* ORCameraView.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC3F7721E88808004969B8 /* ORCameraView.m */; };
+		D0CC3F7D21E88808004969B8 /* ORViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0CC3F7921E88808004969B8 /* ORViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,14 +24,18 @@
 		D064381821E485DC0014C689 /* CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D064381B21E485DC0014C689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D064381C21E485DC0014C689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D064381E21E485DC0014C689 /* ORViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
-		D064381F21E485DC0014C689 /* ORViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
 		D064382421E485DC0014C689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D064382721E485DC0014C689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D064382921E485DC0014C689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D064382A21E485DC0014C689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D064383321E4895A0014C689 /* ORCameraView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ORCameraView.h; sourceTree = "<group>"; };
-		D064383421E4895A0014C689 /* ORCameraView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORCameraView.m; sourceTree = "<group>"; };
+		D0CC3F7121E88808004969B8 /* DRWritingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRWritingView.m; sourceTree = "<group>"; };
+		D0CC3F7221E88808004969B8 /* DRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRViewController.h; sourceTree = "<group>"; };
+		D0CC3F7321E88808004969B8 /* DRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DRViewController.m; sourceTree = "<group>"; };
+		D0CC3F7421E88808004969B8 /* DRWritingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DRWritingView.h; sourceTree = "<group>"; };
+		D0CC3F7621E88808004969B8 /* ORViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORViewController.h; sourceTree = "<group>"; };
+		D0CC3F7721E88808004969B8 /* ORCameraView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORCameraView.m; sourceTree = "<group>"; };
+		D0CC3F7821E88808004969B8 /* ORCameraView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORCameraView.h; sourceTree = "<group>"; };
+		D0CC3F7921E88808004969B8 /* ORViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,17 +49,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D026043D21E7139300249CC0 /* ObjectRecognition */ = {
-			isa = PBXGroup;
-			children = (
-				D064381E21E485DC0014C689 /* ORViewController.h */,
-				D064381F21E485DC0014C689 /* ORViewController.m */,
-				D064383321E4895A0014C689 /* ORCameraView.h */,
-				D064383421E4895A0014C689 /* ORCameraView.m */,
-			);
-			path = ObjectRecognition;
-			sourceTree = "<group>";
-		};
 		D064380F21E485DC0014C689 = {
 			isa = PBXGroup;
 			children = (
@@ -73,7 +68,8 @@
 		D064381A21E485DC0014C689 /* CoreML */ = {
 			isa = PBXGroup;
 			children = (
-				D026043D21E7139300249CC0 /* ObjectRecognition */,
+				D0CC3F7021E88808004969B8 /* DigitRecognition */,
+				D0CC3F7521E88808004969B8 /* ObjectRecognition */,
 				D064381B21E485DC0014C689 /* AppDelegate.h */,
 				D064381C21E485DC0014C689 /* AppDelegate.m */,
 				D064382421E485DC0014C689 /* Assets.xcassets */,
@@ -84,6 +80,28 @@
 				D026044221E7148A00249CC0 /* HomeTableViewController.m */,
 			);
 			path = CoreML;
+			sourceTree = "<group>";
+		};
+		D0CC3F7021E88808004969B8 /* DigitRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC3F7221E88808004969B8 /* DRViewController.h */,
+				D0CC3F7321E88808004969B8 /* DRViewController.m */,
+				D0CC3F7421E88808004969B8 /* DRWritingView.h */,
+				D0CC3F7121E88808004969B8 /* DRWritingView.m */,
+			);
+			path = DigitRecognition;
+			sourceTree = "<group>";
+		};
+		D0CC3F7521E88808004969B8 /* ObjectRecognition */ = {
+			isa = PBXGroup;
+			children = (
+				D0CC3F7621E88808004969B8 /* ORViewController.h */,
+				D0CC3F7921E88808004969B8 /* ORViewController.m */,
+				D0CC3F7821E88808004969B8 /* ORCameraView.h */,
+				D0CC3F7721E88808004969B8 /* ORCameraView.m */,
+			);
+			path = ObjectRecognition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D064382021E485DC0014C689 /* ORViewController.m in Sources */,
+				D0CC3F7C21E88808004969B8 /* ORCameraView.m in Sources */,
 				D064382B21E485DC0014C689 /* main.m in Sources */,
-				D064383521E4895A0014C689 /* ORCameraView.m in Sources */,
 				D026044321E7148A00249CC0 /* HomeTableViewController.m in Sources */,
 				D064381D21E485DC0014C689 /* AppDelegate.m in Sources */,
+				D0CC3F7B21E88808004969B8 /* DRViewController.m in Sources */,
+				D0CC3F7D21E88808004969B8 /* ORViewController.m in Sources */,
+				D0CC3F7A21E88808004969B8 /* DRWritingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

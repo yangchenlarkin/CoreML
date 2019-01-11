@@ -30,7 +30,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     CGFloat width = self.view.bounds.size.width;
     CGFloat height = self.view.bounds.size.height;
-    self.cameraView = [[ORCameraView alloc] initWithFrame:CGRectMake(0, 64, width - 20, width - 20)];
+    self.cameraView = [[ORCameraView alloc] initWithFrame:CGRectMake(10, 64, width - 20, width - 20)];
     self.cameraView.backgroundColor = [UIColor grayColor];
     [self.view addSubview:self.cameraView];
     
@@ -93,7 +93,7 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return self.array.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

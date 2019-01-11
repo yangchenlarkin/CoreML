@@ -7,7 +7,6 @@
 //
 
 #import "HomeTableViewController.h"
-#import "ObjectRecognition/ORViewController.h"
 
 @interface HomeTableViewController ()
 
@@ -23,11 +22,13 @@
         self.viewControllerNames =
         @[
           @"ORViewController",
+          @"DRViewController",
           ];
         
         self.viewControllerTitles =
         @[
           @"物品识别",
+          @"手写数字识别",
           ];
     }
     return self;
