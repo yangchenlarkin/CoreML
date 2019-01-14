@@ -23,12 +23,14 @@
         @[
           @"ORViewController",
           @"DRViewController",
+          @"DLViewController",
           ];
         
         self.viewControllerTitles =
         @[
           @"物品识别",
           @"手写数字识别",
+          @"动态加载模型文件",
           ];
     }
     return self;

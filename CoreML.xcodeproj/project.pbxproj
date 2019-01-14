@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D026044321E7148A00249CC0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D026044221E7148A00249CC0 /* HomeTableViewController.m */; };
+		D04EAB1821EC7D8400D6C4C7 /* DLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04EAB1721EC7D8400D6C4C7 /* DLViewController.m */; };
 		D064381D21E485DC0014C689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D064381C21E485DC0014C689 /* AppDelegate.m */; };
 		D064382521E485DC0014C689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D064382421E485DC0014C689 /* Assets.xcassets */; };
 		D064382821E485DC0014C689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D064382621E485DC0014C689 /* LaunchScreen.storyboard */; };
@@ -21,6 +22,8 @@
 /* Begin PBXFileReference section */
 		D026044121E7148A00249CC0 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		D026044221E7148A00249CC0 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		D04EAB1621EC7D8400D6C4C7 /* DLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLViewController.h; sourceTree = "<group>"; };
+		D04EAB1721EC7D8400D6C4C7 /* DLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DLViewController.m; sourceTree = "<group>"; };
 		D064381821E485DC0014C689 /* CoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D064381B21E485DC0014C689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D064381C21E485DC0014C689 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +52,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D04EAB0A21EC73EA00D6C4C7 /* DynamicLoading */ = {
+			isa = PBXGroup;
+			children = (
+				D04EAB1621EC7D8400D6C4C7 /* DLViewController.h */,
+				D04EAB1721EC7D8400D6C4C7 /* DLViewController.m */,
+			);
+			path = DynamicLoading;
+			sourceTree = "<group>";
+		};
 		D064380F21E485DC0014C689 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +80,7 @@
 		D064381A21E485DC0014C689 /* CoreML */ = {
 			isa = PBXGroup;
 			children = (
+				D04EAB0A21EC73EA00D6C4C7 /* DynamicLoading */,
 				D0CC3F7021E88808004969B8 /* DigitRecognition */,
 				D0CC3F7521E88808004969B8 /* ObjectRecognition */,
 				D064381B21E485DC0014C689 /* AppDelegate.h */,
@@ -174,6 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0CC3F7C21E88808004969B8 /* ORCameraView.m in Sources */,
+				D04EAB1821EC7D8400D6C4C7 /* DLViewController.m in Sources */,
 				D064382B21E485DC0014C689 /* main.m in Sources */,
 				D026044321E7148A00249CC0 /* HomeTableViewController.m in Sources */,
 				D064381D21E485DC0014C689 /* AppDelegate.m in Sources */,
